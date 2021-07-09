@@ -37,9 +37,15 @@ class PubliciseTest extends TestCase
 Then, you can reflect any class using `$this->publicise()`
 
 ```php
-$publicisedClass = $this->publicise(new YourClass());
 
-$publicisedClass->privateMethod();
+/** @test */
+public function can_call_private_method()
+{
+    $publicisedClass = $this->publicise(new YourClass());
+
+    $publicisedClass->privateMethod();
+}
+
 ```
 
 ## Testing
