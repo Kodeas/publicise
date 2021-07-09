@@ -64,7 +64,6 @@ class PubliciseTest extends TestCase
         $this->assertEquals('privateProperty', $dummyClass->privateProperty);
     }
 
-
     /** @test */
     public function can_call_parent_public_method()
     {

@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Kodeas\Publicise\Tests\Support;
-
 
 class DummyClass extends DummyParentClass
 {
