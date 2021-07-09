@@ -1,12 +1,9 @@
 <?php
 
-
 namespace Kodeas\Publicise\Tests\Support;
-
 
 class DummyParentClass
 {
-
     public string $parentPublicProperty;
 
     protected string $parentProtectedProperty;
