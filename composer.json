@@ -1,6 +1,6 @@
 {
     "name": "kodeas/publicise",
-    "description": "This is my package Publicise",
+    "description": "Publicise lets you test the `private` or `protected` properties and methods in your classes",
     "keywords": [
         "Kodeas",
         "publicise"
