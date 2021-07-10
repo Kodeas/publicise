@@ -1,8 +1,8 @@
 ![Publicise](https://user-images.githubusercontent.com/9021386/125131576-a4296c00-e10b-11eb-88ac-e367c7987eed.png)
 # Publicise
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/kodeas/publicise.svg?style=flat-square)](https://packagist.org/packages/kodeas/publicise)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/kodeas/publicise/run-tests?label=tests)](https://github.com/kodeas/publicise/actions?query=workflow%3ATests+branch%3Amain)
+[![Latest Version](https://img.shields.io/github/release/kodeas/publicise.svg?style=flat-square)](https://github.com/spatie/array-to-xml/releases)
+![Tests](https://github.com/kodeas/publicise/workflows/Tests/badge.svg)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/kodeas/publicise/Check%20&%20fix%20styling?label=code%20style)](https://github.com/kodeas/publicise/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/kodeas/publicise.svg?style=flat-square)](https://packagist.org/packages/kodeas/publicise)
 
@@ -37,9 +37,15 @@ class PubliciseTest extends TestCase
 Then, you can reflect any class using `$this->publicise()`
 
 ```php
-$publicisedClass = $this->publicise(new YourClass());
 
-$publicisedClass->privateMethod();
+/** @test */
+public function can_call_private_method()
+{
+    $publicisedClass = $this->publicise(new YourClass());
+
+    $publicisedClass->privateMethod();
+}
+
 ```
 
 ## Testing
