@@ -1,7 +1,7 @@
 ![Publicise](https://user-images.githubusercontent.com/9021386/125131576-a4296c00-e10b-11eb-88ac-e367c7987eed.png)
 # Publicise
 
-[![Latest Version](https://img.shields.io/github/release/kodeas/publicise.svg?style=flat-square)](https://github.com/spatie/array-to-xml/releases)
+[![Latest Version](https://img.shields.io/github/release/kodeas/publicise.svg?style=flat-square)](https://github.com/kodeas/publicise/releases)
 ![Tests](https://github.com/kodeas/publicise/workflows/Tests/badge.svg)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/kodeas/publicise/Check%20&%20fix%20styling?label=code%20style)](https://github.com/kodeas/publicise/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/kodeas/publicise.svg?style=flat-square)](https://packagist.org/packages/kodeas/publicise)
